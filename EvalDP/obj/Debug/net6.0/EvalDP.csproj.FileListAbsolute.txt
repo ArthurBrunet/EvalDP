@@ -1,0 +1,15 @@
+C:\Users\rhore\source\repos\EvalDP\EvalDP\bin\Debug\net6.0\EvalDP.exe
+C:\Users\rhore\source\repos\EvalDP\EvalDP\bin\Debug\net6.0\EvalDP.deps.json
+C:\Users\rhore\source\repos\EvalDP\EvalDP\bin\Debug\net6.0\EvalDP.runtimeconfig.json
+C:\Users\rhore\source\repos\EvalDP\EvalDP\bin\Debug\net6.0\EvalDP.dll
+C:\Users\rhore\source\repos\EvalDP\EvalDP\bin\Debug\net6.0\EvalDP.pdb
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.csproj.AssemblyReference.cache
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.AssemblyInfoInputs.cache
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.AssemblyInfo.cs
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.csproj.CoreCompileInputs.cache
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.dll
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\refint\EvalDP.dll
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.pdb
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\EvalDP.genruntimeconfig.cache
+C:\Users\rhore\source\repos\EvalDP\EvalDP\obj\Debug\net6.0\ref\EvalDP.dll
