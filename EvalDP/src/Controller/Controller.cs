@@ -8,21 +8,23 @@ using System.Threading.Tasks;
 namespace EvalDP.src.Controller
 {
     using EvalDP.src.Model;
+    using EvalDP.src.Model.Factories;
     using EvalDP.src.Model.Childs;
     using EvalDP.src.View;
     public class Controller : IController
     {
+        private static ChildFactory childFactory = new ChildFactory();
         private IModel Model { get; set; }
         private IView View { get; set; }
         public Controller()
         {
             Model = new Model();
             View = new View(Model);
-            Model.AddChild(new ChildHazard(1, 1));
-            Model.AddChild(new ChildDown(10, 1));
-            Model.AddChild(new ChildLeft(16, 1));
-            Model.AddChild(new ChildRight(12, 1));
-            Model.AddChild(new ChildUp(14, 1));
+            for (int i = 0; i < 35; i++)
+            {
+                Model.AddChild(childFactory.make());
+            }
+            Model.AddChild(new ChildDemoniac(20, 10));
         }
         public void Loop()
         {
