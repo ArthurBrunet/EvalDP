@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rhore\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bat76\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhore\\source\\repos\\EvalDP\\EvalDP\\EvalDP.csproj",
+      "projectUniqueName": "D:\\ProjetEcole\\EvalDP\\EvalDP\\EvalDP.csproj",
       "projectName": "EvalDP",
-      "projectPath": "C:\\Users\\rhore\\source\\repos\\EvalDP\\EvalDP\\EvalDP.csproj",
-      "packagesPath": "C:\\Users\\rhore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhore\\source\\repos\\EvalDP\\EvalDP\\obj\\",
+      "projectPath": "D:\\ProjetEcole\\EvalDP\\EvalDP\\EvalDP.csproj",
+      "packagesPath": "C:\\Users\\bat76\\.nuget\\packages\\",
+      "outputPath": "D:\\ProjetEcole\\EvalDP\\EvalDP\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rhore\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\bat76\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

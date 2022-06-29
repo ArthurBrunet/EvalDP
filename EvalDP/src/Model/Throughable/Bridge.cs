@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvalDP.src.Model
+namespace EvalDP.src.Model.Throughable
 {
-    class Ground : Square
+    class Bridge : Square
     {
-        private static readonly Sprite sprite = new(' ');
-        public Ground() : base(true)
+        private static readonly Sprite sprite = new('_');
+        public Bridge() : base(true)
         {
             for (int num = 0; num < 4; num++)
             {
-                SetSprite(num, Ground.sprite);
+                SetSprite(num, sprite);
             }
         }
     }

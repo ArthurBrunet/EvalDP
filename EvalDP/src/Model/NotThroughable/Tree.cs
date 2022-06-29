@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvalDP.src.Model
+namespace EvalDP.src.Model.NotThroughable
 {
     class Tree : Square
     {
@@ -13,7 +13,7 @@ namespace EvalDP.src.Model
         {
             for (int i = 0; i < 4; i++)
             {
-                SetSprite(i, Tree.sprite);
+                SetSprite(i, sprite);
             }
         }
     }

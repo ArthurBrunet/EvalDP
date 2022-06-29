@@ -30,6 +30,7 @@ namespace EvalDP.src.Model
         private void InitializeRandomlySquares()
         {
             this.Squares = new ISquare[Height, Width];
+            NotThroughableFactory notThroughableFactory = new NotThroughableFactory();
             for (int y = 0; y < Height; y++)
             {
                 for (int x = 0; x < Width; x++)
@@ -37,7 +38,7 @@ namespace EvalDP.src.Model
                     ISquare square;
                     if ((x == 0) || (x == (Width - 1)) || (y == 0) || (y == (Height - 1)))
                     {
-                        square = Map.tree;
+                        square = notThroughableFactory.makeSquare();
                     }
                     else
                     {
