@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvalDP.src.Model
+namespace EvalDP.src.Model.Childs
 {
-    class ChildRight : Child
+    class ChildLeft : Child
     {
-        private static readonly Sprite sprite = new('O');
-        public ChildRight(int x, int y) : base(x, y)
+        private static readonly Sprite sprite = new('L');
+        public ChildLeft(int x, int y) : base(x, y)
         {
             this.SetSprite(0, sprite);
             this.SetSprite(1, sprite);
