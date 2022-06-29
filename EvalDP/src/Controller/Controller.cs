@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace EvalDP.src.Controller
 {
     using EvalDP.src.Model;
+    using EvalDP.src.Model.Childs;
     using EvalDP.src.View;
     public class Controller : IController
     {
@@ -17,10 +18,11 @@ namespace EvalDP.src.Controller
         {
             Model = new Model();
             View = new View(Model);
-            Model.AddChild(new ChildRight(1, 1));
-            Model.AddChild(new ChildRight(10, 1));
+            Model.AddChild(new ChildHazard(1, 1));
+            Model.AddChild(new ChildDown(10, 1));
+            Model.AddChild(new ChildLeft(16, 1));
             Model.AddChild(new ChildRight(12, 1));
-            Model.AddChild(new ChildRight(14, 1));
+            Model.AddChild(new ChildUp(14, 1));
         }
         public void Loop()
         {

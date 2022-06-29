@@ -26,25 +26,34 @@ namespace EvalDP.src.Model.Childs
         {
             int newX = X;
             int newY = Y;
-            switch (this.GetRandomDirection())
-            {
-                case 0:
-                    newY = Y == 0 ? 0 : Y - 1;
-                    break;
-                case 1:
-                    newX = X == Map.Width ? Map.Width : X + 1;
-                    break;
-                case 2:
-                    newY = Y == Map.Height ? Map.Height : Y + 1;
-                    break;
-                case 3:
-                    newX = X == 0 ? 0 : X - 1;
-                    break;
-            }
-            if (Map.GetSquare(newX, newY).Throughable)
+
+            if (Map.GetSquare(newX, newY - 1).Throughable)
             {
                 X = newX;
-                Y = newY;
+                Y = newY - 1;
+            }
+            else
+            {
+                switch (this.GetRandomDirection())
+                {
+                    case 0:
+                        newY = Y == 0 ? 0 : Y - 1;
+                        break;
+                    case 1:
+                        newX = X == Map.Width ? Map.Width : X + 1;
+                        break;
+                    case 2:
+                        newY = Y == Map.Height ? Map.Height : Y + 1;
+                        break;
+                    case 3:
+                        newX = X == 0 ? 0 : X - 1;
+                        break;
+                }
+                if (Map.GetSquare(newX, newY).Throughable)
+                {
+                    X = newX;
+                    Y = newY;
+                }
             }
         }
 
