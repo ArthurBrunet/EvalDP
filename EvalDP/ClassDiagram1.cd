@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EvalDP.src.Controller.Controller" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAABABAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>src\Controller\Controller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EvalDP.src.Model.Childs.ChildDemoniac" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\Childs\ChildDemoniac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Childs.ChildDown" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\Childs\ChildDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Childs.ChildHazard" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\Childs\ChildHazard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Childs.ChildLeft" Collapsed="true">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\Childs\ChildLeft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Childs.ChildUp" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\Childs\ChildUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.ChildRight" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAgABAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\Childs\ChildRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Child" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAABYAA=</HashCode>
+      <FileName>src\Model\Child.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EvalDP.src.Model.Map" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAABIAAEAgAgAKAAEABAAIAAAAABAAAEAAAAAg=</HashCode>
+      <FileName>src\Model\Map.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EvalDP.src.Model.Model" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABJAAEAAAAAIAAEAAAAAAAAAAAAAAAAABAAg=</HashCode>
+      <FileName>src\Model\Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EvalDP.src.Model.Sprite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>src\Model\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EvalDP.src.Model.Square" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAABEAAAAAAAAAAAAAAAAAAQAIAAAAAAAAA=</HashCode>
+      <FileName>src\Model\Square.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EvalDP.src.Model.SquareFactory" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\SquareFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Factories.ChildFactory" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAABBIAAAAAAAAAAAEAAAAAAQAAAABAAA=</HashCode>
+      <FileName>src\Model\Factories\ChildFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Factories.NotThroughableFactory" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAIAgAAgAABAAAAAAACAIAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\Factories\NotThroughableFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Factories.ThroughableFactory" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAgAAAAAAAACBAAAAAIAAAAAAA=</HashCode>
+      <FileName>src\Model\Factories\ThroughableFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.NotThroughable.Rock" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\NotThroughable\Rock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.NotThroughable.Tree" Collapsed="true">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\NotThroughable\Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.NotThroughable.Water" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\NotThroughable\Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Throughable.Bridge" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\Throughable\Bridge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.Model.Throughable.Ground" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\Throughable\Ground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvalDP.src.View.View" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>src\View\View.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EvalDP.Program" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EvalDP.src.Controller.IController" Collapsed="true">
+    <Position X="26.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Controller\IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EvalDP.src.Model.IChild" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAABYAA=</HashCode>
+      <FileName>src\Model\IChild.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EvalDP.src.Model.IMap" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIAAEAAAAAIAAEAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>src\Model\IMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EvalDP.src.Model.IModel" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\Model\IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EvalDP.src.Model.ISprite" Collapsed="true">
+    <Position X="28.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>src\Model\ISprite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EvalDP.src.Model.ISquare" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAABEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>src\Model\ISquare.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EvalDP.src.View.IView" Collapsed="true">
+    <Position X="30" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\View\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
