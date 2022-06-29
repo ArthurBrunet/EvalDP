@@ -6,15 +6,25 @@ using System.Threading.Tasks;
 
 namespace EvalDP.src.Model.Factories
 {
-    public class ThrougableFactory : SquareFactory
+    using EvalDP.src.Model.Throughable;
+    public class ThroughableFactory : SquareFactory
     {
 
-        private static ISquare ground = new Througable.Ground();
-        private static ISquare bridge = new 
+        private static ISquare ground = new Ground();
+        private static ISquare bridge = new Bridge();
 
         public override ISquare makeSquare()
         {
-            return makeGround();
+            int rand = new Random().Next(0, 100);
+
+            if (rand <= 98)
+            {
+                return makeGround();
+            }
+            else
+            {
+                return makeBridge();
+            }
         }
 
         public ISquare makeGround()

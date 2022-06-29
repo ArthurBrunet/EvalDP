@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace EvalDP.src.Model
 {
+    using EvalDP.src.Model.NotThroughable;
+    using EvalDP.src.Model.Throughable;
+    using EvalDP.src.Model.Factories;
     internal class Map : IMap
     {
         public int Height { get; private set; }
@@ -17,6 +20,10 @@ namespace EvalDP.src.Model
         private readonly List<IChild> childs;
         private static readonly ISquare tree = new Tree();
         private static readonly ISquare ground = new Ground();
+
+
+        private static NotThroughableFactory notThroughableFactory = new NotThroughableFactory();
+        private static ThroughableFactory throughableFactory = new ThroughableFactory();
 
         public Map(int height, int width, int density)
         {
@@ -30,7 +37,6 @@ namespace EvalDP.src.Model
         private void InitializeRandomlySquares()
         {
             this.Squares = new ISquare[Height, Width];
-            NotThroughableFactory notThroughableFactory = new NotThroughableFactory();
             for (int y = 0; y < Height; y++)
             {
                 for (int x = 0; x < Width; x++)
@@ -38,7 +44,7 @@ namespace EvalDP.src.Model
                     ISquare square;
                     if ((x == 0) || (x == (Width - 1)) || (y == 0) || (y == (Height - 1)))
                     {
-                        square = notThroughableFactory.makeSquare();
+                        square = notThroughableFactory.makeTree();
                     }
                     else
                     {
@@ -54,9 +60,9 @@ namespace EvalDP.src.Model
             Random random = new();
             if (random.Next(0, 100) < Density)
             {
-                return Map.tree;
+                return notThroughableFactory.makeSquare();
             }
-            return Map.ground;
+            return throughableFactory.makeSquare();
         }
         public ISquare GetSquare(int x, int y)
         {

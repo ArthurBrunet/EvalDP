@@ -6,27 +6,35 @@ using System.Threading.Tasks;
 
 namespace EvalDP.src.Model.Factories
 {
+
+    using EvalDP.src.Model.NotThroughable;
     public class NotThroughableFactory : SquareFactory
     {
         private static ISquare tree = new Tree();
 
         private static ISquare rock = new Rock();
 
+        private static ISquare water = new Water();
+
         public override ISquare makeSquare()
         {
-            int rand = new Random().Next(0, 2);
+            int rand = new Random().Next(0, 3);
 
             if (rand == 0)
             {
                 return makeTree();
             }
-            else
+            else if (rand == 1)
             {
                 return makeRock();
             }
+            else
+            {
+                return makeWater();
+            }
         }
 
-        private ISquare makeTree()
+        public ISquare makeTree()
         {
             return tree;
         }
@@ -34,6 +42,10 @@ namespace EvalDP.src.Model.Factories
         private ISquare makeRock()
         {
             return rock;
+        }
+        private ISquare makeWater()
+        {
+            return water;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvalDP.src.Model.Througable
+namespace EvalDP.src.Model.Throughable
 {
     class Ground : Square
     {

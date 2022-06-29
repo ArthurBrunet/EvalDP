@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace EvalDP.src.Model.NotThroughable
 {
-    internal class Water
+    class Water : Square
     {
+        private static readonly Sprite sprite = new('~');
+        public Water() : base(false)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                SetSprite(i, sprite);
+            }
+        }
     }
 }
